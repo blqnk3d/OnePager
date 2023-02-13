@@ -1,0 +1,36 @@
+body{
+    background: #000 url("/res/img.png") repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: "Arial Black";
+}
+
+h1{
+   font-size: xxx-large;
+}
+
+ueberschrift{
+    display: flex;
+
+}
+
+#menü{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a:visited{
+    color: gold;
+}
+a:hover{
+
+}
+
+a{
+    margin: 20px;
+
+}
