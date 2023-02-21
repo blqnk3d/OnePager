@@ -6,6 +6,7 @@ body{
     background-size: cover;
     color: white;
     font-family: "Arial Black";
+
 }
 
 h1{
@@ -31,7 +32,7 @@ ueberschrift{
 
 
 img{
-    width: 100%;
+    width: 0%;
 }
 
 a:visited{
@@ -49,9 +50,7 @@ a{
     display: flex;
     flex-direction: column;
 }
-#pic img{
-width: 100%;
-}
+
 
 #pic{
     flex-direction: column;
@@ -61,10 +60,22 @@ width: 100%;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
+    flex-direction: row;
 }
-.char,img{
-    width : 90%;
+.char img{
+    width : 50%;
 }
+@media screen and (max-width: 900px) {
+    .char{
+        flex-direction: column;
+    }
+    .char img{
+        width : 100%;
+
+    }
+}
+
+
 h2{
     text-align: center;
 }
