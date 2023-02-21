@@ -1,48 +1,50 @@
 body{
-    background: #000 url("/res/img.png") repeat;
+    background: #000 url("res/img.png") repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    font-family: "Arial Black";
-
+    font-family: "Arial Black", serif;
 }
 
 h1,#menü{
    font-size: xxx-large;
+    justify-content: space-evenly;
 }
 
 #menü {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     font-size: xxx-large;
-
+    position: sticky;
+    top: 0;
+    background: #000 url("/res/img.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 a:visited{
-    color: gold;
+    color: deepskyblue;
 }
 a:hover{
     color: orangered;
 }
+/*
+@media screen and (max-width:600px) {
+    .char{
+        flex-direction: column;
+    }
+}
+*/
 
 .char{
     display: flex;
     flex-direction: row;
 }
-
-a{
-    margin: 20px;
-}
-@media screen and (max-width: 500px) {
-
-}
-
-
-
-
-
 
 
 
