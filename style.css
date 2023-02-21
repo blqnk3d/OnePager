@@ -9,27 +9,16 @@ body{
 
 }
 
-h1{
+h1,#menü{
    font-size: xxx-large;
-}
-
-ueberschrift{
-    display: flex;
-
 }
 
 #menü {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    font-size: x-large;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
+    font-size: xxx-large;
+
 }
-
-
-
 
 a:visited{
     color: gold;
@@ -38,41 +27,26 @@ a:hover{
     color: orangered;
 }
 
+.char{
+    display: flex;
+    flex-direction: row;
+}
+
 a{
     margin: 20px;
 }
+@media screen and (max-width: 500px) {
 
-#all{
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (max-width: 900px) {
-
-    .char{
-        flex-direction: column;
-    }
-    .char img{
-        width : 100%;
-
-    }
 }
 
 
-.char{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    flex-direction: row;
-}
-.char.p,AboutLeague{
-    width: 100%;
-}
+
+
+
+
+
 
 h2{
     text-align: center;
 }
 
-all{
-
-}
