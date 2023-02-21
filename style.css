@@ -23,17 +23,13 @@ ueberschrift{
     flex-direction: row;
     flex-wrap: wrap;
     font-size: x-large;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
-
-
-
 }
 
 
-img{
-    width: 0%;
-}
+
 
 a:visited{
     color: gold;
@@ -46,26 +42,13 @@ a{
     margin: 20px;
 }
 
-#Assassin{
+#all{
     display: flex;
     flex-direction: column;
 }
 
-
-#pic{
-    flex-direction: column;
-}
-
-.char{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    flex-direction: row;
-}
-.char img{
-    width : 50%;
-}
 @media screen and (max-width: 900px) {
+
     .char{
         flex-direction: column;
     }
@@ -76,6 +59,20 @@ a{
 }
 
 
+.char{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+}
+.char.p,AboutLeague{
+    width: 100%;
+}
+
 h2{
     text-align: center;
+}
+
+all{
+
 }
