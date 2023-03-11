@@ -16,18 +16,36 @@ body{
     width: 100%;
 }
 
+#menü {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background: #000 url("/res/img.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: xx-large;
+}
+
 @media screen and (max-width:800px) {
     .char{
         flex-direction: column;
         align-content: center;
 
+
     }
     .char img{
-
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+    }
+    #menü{
+        font-size: 1.5rem;
     }
 
 }
@@ -38,20 +56,7 @@ body{
     margin-right: auto;
     width: 80%;
 }
-#menü {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: larger;
-    position: sticky;
-    top: 0;
-    background: #000 url("/res/img.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 a:visited{
     color: deepskyblue;
@@ -61,17 +66,20 @@ a:hover{
 }
 
 h1{
-   font-size: xxx-large;
+   font-size: 3rem;
     justify-content: space-evenly;
 }
 h2{
     text-align: center;
+    font-size: 2rem;
 }
 .char {
     justify-content: center;
     align-items: center;
 }
-
+p{
+    font-size: 1.1rem;
+}
 
 
 
